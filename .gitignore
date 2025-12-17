@@ -1,0 +1,25 @@
+# =========================
+# Data & Model Artifacts
+# =========================
+
+# Training / raw datasets (large files, not tracked by Git)
+CNN/data/
+CNN/models/
+
+# Trained model weights (generated during training)
+models/
+*.h5                # Keras / TensorFlow model files
+saved_model/         # SavedModel format (TensorFlow)
+*.ckpt               # Checkpoints
+
+# =========================
+# Python Cache Files
+# =========================
+
+__pycache__/
+
+# =========================
+# Jupyter Notebook Files
+# =========================
+
+.ipynb_checkpoints/
